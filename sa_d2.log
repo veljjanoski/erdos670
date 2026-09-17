@@ -1,0 +1,6 @@
+d=2 n=5: best diameter = 10.328   C(n,2) = 10   ratio = 1.033   1D Golomb = 11  [75s]
+d=2 n=6: best diameter = 15.567   C(n,2) = 15   ratio = 1.038   1D Golomb = 17  [79s]
+d=2 n=7: best diameter = 27.771   C(n,2) = 21   ratio = 1.322   1D Golomb = 25  [80s]
+d=2 n=8: best diameter = 39.587   C(n,2) = 28   ratio = 1.414   1D Golomb = 34  [92s]
+d=2 n=9: best diameter = 57.042   C(n,2) = 36   ratio = 1.584   1D Golomb = 44  [109s]
+d=2 n=10: best diameter = 89.893   C(n,2) = 45   ratio = 1.998   1D Golomb = 55  [111s]

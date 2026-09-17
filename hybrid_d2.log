@@ -1,0 +1,8 @@
+d=2 n=5: best diameter = 10.185   C(n,2) = 10   ratio = 1.019   1D optimum = 11 (ratio 1.100)  [19s]
+d=2 n=6: best diameter = 15.534   C(n,2) = 15   ratio = 1.036   1D optimum = 17 (ratio 1.133)  [20s]
+d=2 n=7: best diameter = 23.140   C(n,2) = 21   ratio = 1.102   1D optimum = 25 (ratio 1.190)  [24s]
+d=2 n=8: best diameter = 34.980   C(n,2) = 28   ratio = 1.249   1D optimum = 34 (ratio 1.214)  [26s]
+d=2 n=9: best diameter = 50.107   C(n,2) = 36   ratio = 1.392   1D optimum = 44 (ratio 1.222)  [27s]
+d=2 n=10: best diameter = 65.465   C(n,2) = 45   ratio = 1.455   1D optimum = 55 (ratio 1.222)  [29s]
+d=2 n=11: best diameter = 91.873   C(n,2) = 55   ratio = 1.670   1D optimum = 72 (ratio 1.309)  [33s]
+d=2 n=12: best diameter = 126.923   C(n,2) = 66   ratio = 1.923   1D optimum = 85 (ratio 1.288)  [37s]

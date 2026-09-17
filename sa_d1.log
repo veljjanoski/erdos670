@@ -1,0 +1,3 @@
+d=1 n=10: best diameter = 65.837   C(n,2) = 45   ratio = 1.463   1D Golomb = 55  [109s]
+d=1 n=11: best diameter = 92.321   C(n,2) = 55   ratio = 1.679   1D Golomb = 72  [122s]
+d=1 n=12: best diameter = 130.719   C(n,2) = 66   ratio = 1.981   1D Golomb = 85  [145s]
