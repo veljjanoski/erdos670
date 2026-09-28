@@ -8,7 +8,9 @@ d is allowed to grow with n; the fixed-dimension question, in particular d = 2, 
 **Content of this repository.** Explicit planar configurations, found by a GPU annealing search and then
 certified with exact integer coordinates and 60-digit arithmetic, whose distances are pairwise at least 1 apart
 and whose diameter is below the length of the optimal Golomb ruler with the same number of marks (the integer
-version of the problem on a line). These are upper bounds for small n only; they say nothing about asymptotics.
+version of the problem on a line). We do not know whether real-valued points on a line can do better than the
+optimal Golomb ruler, so the comparison is with integer rulers only; at n = 10 the margin is only 0.13. These are
+upper bounds for small n only; they say nothing about asymptotics.
 
 | n | certified planar diameter | C(n,2) | optimal Golomb ruler (line, integer case) |
 |---|---|---|---|
@@ -21,9 +23,10 @@ version of the problem on a line). These are upper bounds for small n only; they
 | 11 | 77.1695 | 55 | 72 |
 | 12 | 107.3715 | 66 | 85 |
 
-For n = 11, 12 the search did not reach the line values, i.e. it is far from optimal there; those rows are kept
+For n = 11, 12 the search did not reach the Golomb values, i.e. it is far from optimal there; those rows are kept
 only for completeness. Our line searches with the same code reproduced the Golomb values 17, 25, 34, 44 for
-n = 6..9 and were above the optimum for n ≥ 10, so the planar values for n ≥ 10 are certainly not optimal either.
+n = 6..9 and stayed above the Golomb values for n = 10..12, so the planar value for n = 10 is probably not optimal
+either (not proved).
 
 **Certification.** `configs.json` holds, for each n, integer coordinates (units of 10⁻⁴). `verify_planar.py`
 (needs only `mpmath`) recomputes all C(n,2) distances to 60 digits, the minimum gap g between consecutive sorted
