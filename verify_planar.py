@@ -1,11 +1,11 @@
-"""Independent check of configs.json for Erdős #670 (needs only mpmath).
+"""Independent check of configs.json (or a file given as argument) for Erdős #670 (needs only mpmath).
 For each n: integer coordinates P (units of 1e-4).  Computes all pairwise distances with 60-digit precision,
 g = smallest gap between consecutive sorted distances, D = largest distance.  The configuration P/g has all
 pairwise distances at least 1 apart and diameter D/g."""
-import json
+import json, sys
 from mpmath import mp, mpf, sqrt
 mp.dps = 60
-cfg = json.load(open('configs.json'))
+cfg = json.load(open(sys.argv[1] if len(sys.argv) > 1 else 'configs.json'))
 for n in sorted(cfg, key=int):
     P = cfg[n]['points']; k = int(n); dists = []
     for i in range(k):
