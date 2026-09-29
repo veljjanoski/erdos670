@@ -1,0 +1,54 @@
+{
+ "11": {
+  "points": [
+   [
+    0,
+    7159
+   ],
+   [
+    10756,
+    11207
+   ],
+   [
+    64782,
+    0
+   ],
+   [
+    109006,
+    175
+   ],
+   [
+    247300,
+    20738
+   ],
+   [
+    365382,
+    37245
+   ],
+   [
+    440988,
+    26084
+   ],
+   [
+    570158,
+    30009
+   ],
+   [
+    591328,
+    18327
+   ],
+   [
+    354446,
+    427347
+   ],
+   [
+    278825,
+    34062
+   ]
+  ],
+  "unit": "1e-4",
+  "diameter": 59.14755552,
+  "exact_upper_bound": 59.148814,
+  "construction": "grid start (grid/, 29 Sep 2026): optimal 10-mark Golomb ruler stretched by 1.02 + 1 point, then one point removed and re-inserted; float set grid/n11_best_float.json"
+ }
+}
